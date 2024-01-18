@@ -9,12 +9,8 @@ body{
     position: relative;
     z-index: -1;
 }
-header a img{
-    width: 350px;
-    height: 80px;
-}
 section div .row p{
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 600;
     line-height: 95px;
     background: #ffffff;
@@ -139,5 +135,9 @@ background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
     .logo img{
         height: 100px;
         width: 150px;
+    }
+    .footer .logo img{
+        height: 70px;
+        width:350px ;
     }
   }
