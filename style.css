@@ -119,15 +119,16 @@ background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
     section div .row p{
         font-family: "Salsa", cursive;
         font-size: 30px;
+        line-height: 40px;
         font-weight: 900;
-        color: #53ed42; background-image: -webkit-linear-gradient(0deg, #3cff06 2%, #ecfee8 20%, #3cff06 76%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+        color: #ecfee8; background-image: -webkit-linear-gradient(0deg, #ecfee8 2%, #ecfee8 20%, #ecfee8 76%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
               
     }
     .btun a {
         position: relative;
         display: inline-block;
         padding: 10px 20px;
-        color: #21f328;
+        color: #ecfee8;
         text-transform: uppercase;
         letter-spacing: 3px;
         text-decoration: none;
