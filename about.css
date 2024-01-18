@@ -10,6 +10,9 @@ body{
     background-repeat: no-repeat;
     z-index: -1;
 }
+.col-sm-6{
+    width: 50%;
+}
 header a img{
     width: 350px;
     height: 80px;

@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+.col-sm-6{
+  width: 50%;
+}
 body{
     background-image:url(futuristic-banner-background-with-wireframe-terrain-vector.jpg);
     background-size: cover;
@@ -14,103 +17,8 @@ section div .row p{
     font-size: 70px;
     font-weight: 600;
     line-height: 95px;
-    background: #ffffff;
-background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-          
-}
-.btun a {
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
     color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
-}
-
-
-
-.btun a:hover {
-    color: #213df3;
-    background: #dd8cb5;
-    box-shadow: 0 0 10px #dd8cb5, 0 0 40px #dd8cb5, 0 0 80px #dd8cb5;
-    transition-delay: 1s;
-}
-
-
-.btun a span {
-    position: absolute;
-    display: block;
-}
-
-
-
-
-.btun a span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #2196f3);
-}
-
-
-
-.btun a:hover span:nth-child(1) {
-    left: 100%;
-    transition: 1s;
-}
-
-
-.btun a span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #2196f3);
-}
-
-.btun a:hover span:nth-child(3) {
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
-}
-
-
-
-.btun a span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #2196f3);
-}
-
-.btun a:hover span:nth-child(2) {
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
-}
-
-
-
-.btun a span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #2196f3);
-}
-
-.btun a:hover span:nth-child(4) {
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
+          
 }
 @media screen and (max-width: 480px) {
     section div .row p{
@@ -119,18 +27,6 @@ background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
         font-weight: 900;
         color:white;
               
-    }
-    .btun a {
-        position: relative;
-        display: inline-block;
-        padding: 10px 20px;
-        color: #ecfee8;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        text-decoration: none;
-        font-size: 18px;
-        overflow: hidden;
-        transition: 0.2s;
     }
     .logo img{
         margin: 20px 0px;
@@ -141,4 +37,19 @@ background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
         height: 70px;
         width:350px ;
     }
+    section div .row .sign {
+    
+      display: flex;
+      justify-content: center;
+      font-family: "Clip";
+      text-transform: uppercase;
+      font-size:40px;
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+        0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+      animation: shine 2s forwards, flicker 3s infinite;
+    }
   }
+
+  
