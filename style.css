@@ -114,11 +114,10 @@ background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
 }
 @media screen and (max-width: 480px) {
     section div .row p{
-        font-family: "Salsa", cursive;
         font-size: 30px;
         line-height: 40px;
         font-weight: 900;
-        color: #ecfee8; background-image: -webkit-linear-gradient(0deg, #ecfee8 2%, #ecfee8 20%, #ecfee8 76%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+        color:white;
               
     }
     .btun a {
@@ -134,6 +133,7 @@ background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
         transition: 0.2s;
     }
     .logo img{
+        margin: 20px 0px;
         height: 100px;
         width: 150px;
     }
