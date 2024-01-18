@@ -5,8 +5,9 @@
 }
 body{
     background-image:url(futuristic-banner-background-with-wireframe-terrain-vector.jpg);
-    background-size: cover;
+    background-size:cover;
     position: relative;
+    background-repeat: no-repeat;
     z-index: -1;
 }
 header a img{
@@ -20,29 +21,36 @@ ul {
 section div .row ul li{
     font-size: 30px;
     font-weight: 600;
-    background: #ffffff;
-background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-          
+    color:white;   
 }
+section div .row p{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    color:white;}
+
 section div .row h3{
     font-size: 40px;
     font-weight: 600;
-    background: #ffffff;
-background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    color:white;
+}
+section div .row h1{
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
 }
 section div .row h3 i{
     font-size: 30px;
+    margin-left: 20px;
     font-weight: 600;
-    background: #ffffff;
-background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    color:white;
 }
-          
+section div .row h1 i{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+    color:white;
+}          
 .list{
     margin-top: 75px;
 }
@@ -53,24 +61,12 @@ background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
         font-size: 20px;
         line-height: 40px;
         font-weight: 900;
-        color: #ecfee8; background-image: -webkit-linear-gradient(0deg, #ecfee8 2%, #ecfee8 20%, #ecfee8 76%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+        color: #ecfee8;
               
     }
-    .btun a {
-        position: relative;
-        display: inline-block;
-        padding: 10px 20px;
-        color: #ecfee8;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        text-decoration: none;
-        font-size: 18px;
-        overflow: hidden;
-        transition: 0.2s;
-    }
     .logo img{
-        height: 100px;
-        width: 150px;
+        height: 130px;
+        width: 170px;
     }
     .footer .logo img{
         height: 70px;
@@ -79,4 +75,40 @@ background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
     .list{
         margin-top: -35px;
     }
+    section div .row h3{
+        font-size: 25px;
+        font-weight: 600;
+        color:white;
+    }
+    section div .row h3 i{
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 600;
+        color:white;
+    }
+    section div .row ul li{
+        font-size: 14px;
+        font-weight: 600;
+        color:white;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    section div .row h1{
+        font-size: 25px;
+        font-weight: 600;
+        color:white;
+    }
+    section div .row p{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        color:white;}
+        section div .row h3 i{
+            font-size: 20px;
+            margin-left: 10px;
+            
+            font-weight: 600;
+            color:white;
+        }
   }

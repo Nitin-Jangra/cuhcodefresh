@@ -6,8 +6,8 @@
 body{
     background-image:url(futuristic-banner-background-with-wireframe-terrain-vector.jpg);
     background-size: cover;
-    background-repeat:no-repeat;
     position: relative;
+    background-repeat: no-repeat;
     z-index: -1;
 }
 section div .row p{
