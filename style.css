@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Salsa", cursive;
     
 }
 body{
@@ -15,11 +14,11 @@ header a img{
     height: 80px;
 }
 section div .row p{
-    font-family: "Salsa", cursive;
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 95px;
     background: #ffffff;
-background: linear-gradient(to right, #ffffff 0%, #cf12c2 100%);
+background: linear-gradient(to right, #ffffff 0%, #dd8cb5 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
           
@@ -41,8 +40,8 @@ background: linear-gradient(to right, #ffffff 0%, #cf12c2 100%);
 
 .btun a:hover {
     color: #213df3;
-    background: #f321cd;
-    box-shadow: 0 0 10px #d721f3, 0 0 40px #ec21f3, 0 0 80px #f321ec;
+    background: #dd8cb5;
+    box-shadow: 0 0 10px #dd8cb5, 0 0 40px #dd8cb5, 0 0 80px #dd8cb5;
     transition-delay: 1s;
 }
 
@@ -135,5 +134,9 @@ background: linear-gradient(to right, #ffffff 0%, #cf12c2 100%);
         font-size: 18px;
         overflow: hidden;
         transition: 0.2s;
+    }
+    .logo img{
+        height: 100px;
+        width: 150px;
     }
   }
